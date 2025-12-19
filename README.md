@@ -1,18 +1,42 @@
-## Getting Started
+# GarajePoo2025
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Proyecto final de la materia **Programación Orientada a Objetos**, desarrollado en **Java**.
 
-## Folder Structure
+El sistema simula la gestión de un garaje, aplicando los principios fundamentales de la Programación Orientada a Objetos como encapsulamiento, herencia, polimorfismo y abstracción.
 
-The workspace contains two folders by default, where:
+  Objetivo del proyecto
+El objetivo principal del proyecto es modelar un dominio real (un garaje) utilizando clases, objetos y relaciones entre ellos, priorizando un diseño claro y orientado a objetos por sobre una lógica puramente procedural.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+  Funcionalidades principales
+- Creación y gestión de vehículos
+- Asociación de vehículos a un garaje
+- Operaciones básicas sobre los objetos del dominio
+- Validaciones mediante métodos de clase
+- Uso de colecciones para almacenar objetos
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+  Diseño Orientado a Objetos
+ El proyecto aplica los siguientes conceptos de POO:
+Encapsulamiento
+- Los atributos de las clases se encuentran declarados como `private`
+- El acceso se realiza mediante getters y setters
+- La lógica interna queda protegida de accesos indebidos
+Herencia
+- Se utilizan clases base y clases derivadas para representar distintos tipos de vehículos
+- Las clases hijas reutilizan y extienden comportamiento de la clase padre
+Polimorfismo
+- Se redefinen métodos en clases hijas
+- Se trabaja con referencias del tipo de la clase padre que apuntan a objetos concretos
+Abstracción
+- El diseño separa responsabilidades
+- Cada clase representa una entidad clara del dominio
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+  Tecnologías utilizadas
+- Java 
+- IntelliJ IDEA
+- Git y GitHub
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+  Cómo ejecutar el proyecto
+1. Clonar el repositorio:
+   _"  git clone https://github.com/MarWG/GarajePoo2025.git  "_
+2.-Abrir el proyecto en IntelliJ IDEA
+2.-Ejecutar la clase "App" que contiene el método main
