@@ -39,4 +39,4 @@ Abstracción
 1. Clonar el repositorio:
    _"  git clone https://github.com/MarWG/GarajePoo2025.git  "_
 2.-Abrir el proyecto en IntelliJ IDEA
-2.-Ejecutar la clase "App" que contiene el método main
+3.-Ejecutar la clase "App" que contiene el método main
